@@ -1,0 +1,55 @@
+# Archivos compilados de Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Archivos de log
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos temporales y de caché
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+*.swn
+*.~*
+
+# Configuración de Pytest
+.cache/
+.pytest_cache/
+
+# Archivos de cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos de despliegue
+*.env
+.env.*
+*.local
+
+# Directorios de media y static en desarrollo
+media/
+staticfiles/
+
+# Archivos de migraciones
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*
+
+# Configuración de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Configuración de despliegue con Docker
+docker-compose*.yml
+Dockerfile
