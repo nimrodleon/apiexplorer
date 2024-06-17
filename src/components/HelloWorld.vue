@@ -1,4 +1,7 @@
 <script setup>
+import Button from "primevue/button"
+import InputText from "primevue/inputtext"
+
 defineProps({
   msg: {
     type: String,
@@ -15,6 +18,10 @@ defineProps({
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
+  </div>
+  <div class="flex gap-2">
+    <InputText/>
+    <Button label="Click me"/>
   </div>
 </template>
 
